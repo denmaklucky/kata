@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32.SafeHandles;
+﻿using System.Reflection.Metadata.Ecma335;
+using Microsoft.Win32.SafeHandles;
 
 namespace DidYouMean;
 
@@ -17,34 +18,30 @@ public class Kata
             return "java";
 
         var result = term;
-        var countMissingLetters = int.MaxValue;
+        var countIntersectLetters = 0;
         foreach (var word in words)
         {
-            var missingLetters = CountMissingLetters(word, term);
+            var intersectLetters = CountIntersectLetters(word, term);
 
-            if (missingLetters == 0)
+            if (intersectLetters == 0)
             {
                 result = word;
                 break;
             }
 
-            if (missingLetters == word.Length)
+            if (intersectLetters == word.Length)
                 continue;
 
-            if (missingLetters < countMissingLetters)
+            if (intersectLetters > countIntersectLetters)
             {
                 result = word;
-                countMissingLetters = missingLetters;
+                countIntersectLetters = intersectLetters;
             }
         }
 
         return result;
     }
 
-    private int CountMissingLetters(string word, string term)
-    {
-        var missingChars = word.Except(term);
-        var count = missingChars.Sum(missingChar => word.Count(c => c == missingChar));
-        return count == 0 ? word.Length : count;
-    }
+    private int CountIntersectLetters(string word, string term)
+        => word.Intersect(term).Count();
 }
