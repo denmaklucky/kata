@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using DidYouMean;
 
-Console.WriteLine("Hello, World!");
+var kata = new Kata(new List<string> { "stars","codewars","wars","mars","code","codec"});
+Console.WriteLine(kata.FindMostSimilar("coddwars"));

@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.Win32.SafeHandles;
 
 namespace DidYouMean;
 
@@ -45,27 +43,8 @@ public class Kata
 
     private int CountMissingLetters(string word, string term)
     {
-        var missingLetters = 0;
-
-        for (var i = 0; i < word.Length; i++)
-        {
-            if (i + 1 > term.Length)
-                break;
-
-            if (word[i] == term[i])
-                continue;
-
-            if (i + 1 > word.Length)
-                break;
-
-            missingLetters++;
-
-            if (word[i + 1] != term[i])
-            {
-                missingLetters++;
-            }
-        }
-
-        return missingLetters;
+        var missingChars = word.Except(term);
+        var count = missingChars.Sum(missingChar => word.Count(c => c == missingChar));
+        return count == 0 ? word.Length : count;
     }
 }
