@@ -1,5 +1,5 @@
 ﻿
 using DidYouMean;
 
-var kata = new Kata(new List<string> { "cherry", "pineapple", "melon", "strawberry", "raspberry" });
-Console.WriteLine(kata.FindMostSimilar("berry"));
+var kata = new Kata(new List<string> { "iroezmixmberfr","hirldidcuzbyb","fxpvfhfrujjaifr","fgtrjakzlnaebxr","hkldhadcxrjbmkmcdi","hrwuhmtxxvmygb","clxmqmiycvidiyr","emvquxrvvlvwvsi","osbednerciaai","qojfrlhufr","cwhyyzaorpvtnlfr","nnsoamjkrzgldi","ajacizfrgxfumzpvi","ucxmdeudiycokfnb","npyrgrpbdfqhhncdi","dyhxgviphoptak","xikoctmrhpvi","jcocndjkyb","xuwahveztwoor","ntwmwwmicnjvhtt","tklquxrnhfiggb","hwzsemiqxjwfk","tdvibqccxr","dihhiczkdwiofpr","xrgdgqfrldwk","karpscdigdvucfr","ggcvrtxrtnafw","zqdrhpviqslik","znystgvifufptxr","sefsknopiffajor","riyhpvimgaliuxr","xffrkbdyjveb","loogviwcojxgvi","kqijoorfkejdcxr","iqkyztorburjgiudi","eglanhfredaykxr","pdyjrkaylryr","mhmkakybpczjbb","afirbipbmkamjzw","cpnqknjyviusknmte","ljxzjjorwgb","lnjhrzfrosinb","jhjyasikwyufr","psaysnhfrrqgxwik","pxyousorusjxxbt","vkholxrvjwisrk","fxjskybblljqr","qifwqgdsijibor","ppctybxgtleipb","cfvruditwcxr"});
+Console.WriteLine(kata.FindMostSimilar("rkacypviuburk"));

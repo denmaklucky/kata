@@ -1,0 +1,15 @@
+D:\Repos\Kata\PlayingWithDigits\bin\Debug\net6.0\PlayingWithDigits.exe
+D:\Repos\Kata\PlayingWithDigits\bin\Debug\net6.0\PlayingWithDigits.deps.json
+D:\Repos\Kata\PlayingWithDigits\bin\Debug\net6.0\PlayingWithDigits.runtimeconfig.json
+D:\Repos\Kata\PlayingWithDigits\bin\Debug\net6.0\PlayingWithDigits.dll
+D:\Repos\Kata\PlayingWithDigits\bin\Debug\net6.0\ref\PlayingWithDigits.dll
+D:\Repos\Kata\PlayingWithDigits\bin\Debug\net6.0\PlayingWithDigits.pdb
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.csproj.AssemblyReference.cache
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.AssemblyInfoInputs.cache
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.AssemblyInfo.cs
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.csproj.CoreCompileInputs.cache
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.dll
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\ref\PlayingWithDigits.dll
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.pdb
+D:\Repos\Kata\PlayingWithDigits\obj\Debug\net6.0\PlayingWithDigits.genruntimeconfig.cache

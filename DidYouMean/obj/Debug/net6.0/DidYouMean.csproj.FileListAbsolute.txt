@@ -1,0 +1,15 @@
+D:\Repos\Kata\DidYouMean\bin\Debug\net6.0\DidYouMean.exe
+D:\Repos\Kata\DidYouMean\bin\Debug\net6.0\DidYouMean.deps.json
+D:\Repos\Kata\DidYouMean\bin\Debug\net6.0\DidYouMean.runtimeconfig.json
+D:\Repos\Kata\DidYouMean\bin\Debug\net6.0\DidYouMean.dll
+D:\Repos\Kata\DidYouMean\bin\Debug\net6.0\ref\DidYouMean.dll
+D:\Repos\Kata\DidYouMean\bin\Debug\net6.0\DidYouMean.pdb
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.csproj.AssemblyReference.cache
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.AssemblyInfoInputs.cache
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.AssemblyInfo.cs
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.csproj.CoreCompileInputs.cache
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.dll
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\ref\DidYouMean.dll
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.pdb
+D:\Repos\Kata\DidYouMean\obj\Debug\net6.0\DidYouMean.genruntimeconfig.cache
