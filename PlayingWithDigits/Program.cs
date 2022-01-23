@@ -1,12 +1,11 @@
 ﻿static long DigPow(int n, int p)
 {
-    var inputNumber = n;
     long sum = 0;
-    while (inputNumber > 0)
+
+    var inputNumber = n.ToString();
+    foreach (var digit in inputNumber)
     {
-        var digit = inputNumber % 10;
-        inputNumber /= 10;
-        sum += digit ^ p;
+        sum += (long)Math.Pow(int.Parse(digit.ToString()), p);
         p++;
     }
 
@@ -14,5 +13,5 @@
     return k * n == sum ? k : -1;
 }
 
-var k = DigPow(89,1);
+var k = DigPow(89, 1);
 Console.WriteLine(k);
