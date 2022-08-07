@@ -1,0 +1,15 @@
+D:\Repos\Kata\CountIdAddress\bin\Debug\net6.0\CountIdAddress.exe
+D:\Repos\Kata\CountIdAddress\bin\Debug\net6.0\CountIdAddress.deps.json
+D:\Repos\Kata\CountIdAddress\bin\Debug\net6.0\CountIdAddress.runtimeconfig.json
+D:\Repos\Kata\CountIdAddress\bin\Debug\net6.0\CountIdAddress.dll
+D:\Repos\Kata\CountIdAddress\bin\Debug\net6.0\CountIdAddress.pdb
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.csproj.AssemblyReference.cache
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.AssemblyInfoInputs.cache
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.AssemblyInfo.cs
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.csproj.CoreCompileInputs.cache
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.dll
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\refint\CountIdAddress.dll
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.pdb
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\CountIdAddress.genruntimeconfig.cache
+D:\Repos\Kata\CountIdAddress\obj\Debug\net6.0\ref\CountIdAddress.dll

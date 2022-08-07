@@ -2,7 +2,6 @@ D:\Repos\Kata\CountingDuplicates\bin\Debug\net6.0\CountingDuplicates.exe
 D:\Repos\Kata\CountingDuplicates\bin\Debug\net6.0\CountingDuplicates.deps.json
 D:\Repos\Kata\CountingDuplicates\bin\Debug\net6.0\CountingDuplicates.runtimeconfig.json
 D:\Repos\Kata\CountingDuplicates\bin\Debug\net6.0\CountingDuplicates.dll
-D:\Repos\Kata\CountingDuplicates\bin\Debug\net6.0\ref\CountingDuplicates.dll
 D:\Repos\Kata\CountingDuplicates\bin\Debug\net6.0\CountingDuplicates.pdb
 D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\CountingDuplicates.csproj.AssemblyReference.cache
 D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\CountingDuplicates.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\CountingDuplicates.dll
 D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\ref\CountingDuplicates.dll
 D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\CountingDuplicates.pdb
 D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\CountingDuplicates.genruntimeconfig.cache
+D:\Repos\Kata\CountingDuplicates\obj\Debug\net6.0\refint\CountingDuplicates.dll
