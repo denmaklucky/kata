@@ -1,10 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DidYouMean", "DidYouMean\DidYouMean.csproj", "{83F09928-BF95-41FE-8A97-7EA0A07474BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayingWithDigits", "PlayingWithDigits\PlayingWithDigits.csproj", "{4E6804C0-1127-4357-BDC1-CF3D88F72D21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingDuplicates", "CountingDuplicates\CountingDuplicates.csproj", "{511C8648-692E-4C3B-A850-82FF8531FBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountIdAddress", "CountIdAddress\CountIdAddress.csproj", "{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +27,9 @@ Global
 		{511C8648-692E-4C3B-A850-82FF8531FBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511C8648-692E-4C3B-A850-82FF8531FBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511C8648-692E-4C3B-A850-82FF8531FBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

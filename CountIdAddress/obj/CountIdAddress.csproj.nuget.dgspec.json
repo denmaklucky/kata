@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\Kata\\CountingDuplicates\\CountingDuplicates.csproj": {}
+    "D:\\Repos\\Kata\\CountIdAddress\\CountIdAddress.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\Kata\\CountingDuplicates\\CountingDuplicates.csproj": {
+    "D:\\Repos\\Kata\\CountIdAddress\\CountIdAddress.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\Kata\\CountingDuplicates\\CountingDuplicates.csproj",
-        "projectName": "CountingDuplicates",
-        "projectPath": "D:\\Repos\\Kata\\CountingDuplicates\\CountingDuplicates.csproj",
+        "projectUniqueName": "D:\\Repos\\Kata\\CountIdAddress\\CountIdAddress.csproj",
+        "projectName": "CountIdAddress",
+        "projectPath": "D:\\Repos\\Kata\\CountIdAddress\\CountIdAddress.csproj",
         "packagesPath": "C:\\Users\\densv\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Kata\\CountingDuplicates\\obj\\",
+        "outputPath": "D:\\Repos\\Kata\\CountIdAddress\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
