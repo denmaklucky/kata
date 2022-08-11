@@ -1,36 +1,21 @@
-﻿static long IpsBetween(string start, string end)
+﻿
+static long IpsBetween(string start, string end)
 {
-    const int ipAddressLength = 4;
-
-    var startBytes = start.Split('.');
-    var endBytes = end.Split('.');
-
-    var totalRemainder = 0;
-    var currentRemainder = 0;
-    var totalDifference = 0;
-
-    for (var i = ipAddressLength - 1; i >= 0; i--)
+    uint ToUint(string ipAddress)
     {
-        var difference = byte.Parse(endBytes[i]) - byte.Parse(startBytes[i]);
-        totalDifference += difference >= 0 ? difference : difference + 255;
+        var bytes = ipAddress.Split('.').Select(byte.Parse).ToArray();
 
-        if (difference != 0)
-        {
-            totalRemainder += currentRemainder;
-            currentRemainder = 0;
-        }
-        else
-            currentRemainder += 1;
+        if (BitConverter.IsLittleEndian)
+            Array.Reverse(bytes);
 
-        if (i == 0 && totalDifference == 0)
-        {
-            totalRemainder = 0;
-        }
+        return BitConverter.ToUInt32(bytes);
     }
+    var startIpAddressAsUnit = ToUint(start);
+    var endIpAddressAsUnit = ToUint(end);
 
-    return totalDifference + totalRemainder * 256;
+    return endIpAddressAsUnit - startIpAddressAsUnit;
 }
 
-
-//Console.WriteLine(IpsBetween("10.0.0.0", "10.0.0.50"));
+Console.WriteLine(IpsBetween("10.0.0.0", "10.0.0.50"));
 Console.WriteLine(IpsBetween("20.0.0.10", "20.0.1.0"));
+Console.WriteLine(IpsBetween("0.0.0.0", "255.255.255.255"));
