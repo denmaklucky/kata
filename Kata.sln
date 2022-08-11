@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingDuplicates", "Count
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountIdAddress", "CountIdAddress\CountIdAddress.csproj", "{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanToInt", "RomanToInt\RomanToInt.csproj", "{4BF9E5E6-99BE-4AB3-80CE-A25D45AF5DE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C4A04D-AF58-41D9-9B3F-F36B744CD781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF9E5E6-99BE-4AB3-80CE-A25D45AF5DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF9E5E6-99BE-4AB3-80CE-A25D45AF5DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF9E5E6-99BE-4AB3-80CE-A25D45AF5DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF9E5E6-99BE-4AB3-80CE-A25D45AF5DE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
